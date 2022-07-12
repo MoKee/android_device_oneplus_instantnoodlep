@@ -25,7 +25,7 @@
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-lineage
+    $(LOCAL_PATH)/overlay-mokee
 
 # Device uses high-density artwork where available
 PRODUCT_AAPT_CONFIG := normal
@@ -46,7 +46,7 @@ PRODUCT_PACKAGES += \
 
 # PowerShare
 PRODUCT_PACKAGES += \
-    vendor.lineage.powershare@1.0-service.oneplus
+    vendor.mokee.powershare@1.0-service.oneplus
 
 PRODUCT_SHIPPING_API_LEVEL := 29
 
